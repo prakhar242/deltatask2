@@ -69,6 +69,7 @@ var myGameArea = {
     },
     stop : function() {
         clearInterval(this.interval);
+        myObstacles = [];
         alert("GAME OVER!");
         document.getElementById("btn").innerHTML= "RESTART";
     }
